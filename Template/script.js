@@ -1,9 +1,5 @@
 // This is VERY much a work in progress. Hope to complete work by mid September, but depends on spare time
 
-$("#profile-picture").click(function(){
-  alert("The paragraph was clicked.");
-});
-
 $('#menu-toggle,#menu-overlay').click(function(){
     $('body').toggleClass('open-menu');
   });
