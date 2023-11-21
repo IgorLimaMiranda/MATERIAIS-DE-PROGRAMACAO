@@ -22,9 +22,9 @@
     <nav id="sidenav">
       <div id="sidenav-header">
         <div id="profile-picture">
-          <img src="https://www.gravatar.com/avatar/fa4df8540bab3cb38f7dfa60c6e0522c.png" />
+          <img src="/Template/images/11zon_cropped.png" />
         </div>
-        <a href="#" id="profile-link">Jesse Couch</a>
+        <a href="#" id="profile-link">IGOR LIMA</a>
       </div>
       <div id="account-actions">
         <a href="#" data-title="Home"><i class="fa fa-home"></i></a>
@@ -76,7 +76,7 @@
     <header id="content-header">
       Header content
     </header>
-    <nav id="tabs">
+    <!-- <nav id="tabs">
       <ul>
         <li class="active" data-target="knowledge">Knowledge</li>
         <li data-target="activity">Activity</li>
@@ -109,7 +109,7 @@
     </div>
     <div class="tab-target" id="friends">
       Friends Content
-    </div>
+    </div> -->
   </section>
   <footer></footer>
   <script type="text/javascript">
