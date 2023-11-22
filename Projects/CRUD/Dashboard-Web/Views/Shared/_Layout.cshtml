@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="~/images/gauge-high-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <!-- <script type="text/javascript" src="/Template/script.js"></script> -->
+</head>
+
+<body>
+    <div id="menu-overlay"></div>
+    <div id="menu-toggle" class="closed" data-title="Menu">
+        <i class="fa fa-bars"></i>
+        <i class="fa fa-times"></i>
+    </div>
+    <header id="main-header">
+        <nav id="sidenav">
+            <div id="sidenav-header">
+                <div id="profile-picture">
+                    <img src="~/images/11zon_cropped.png" />  
+                </div>
+                <a href="#" id="profile-link">IGOR LIMA</a>
+            </div>
+            <div id="account-actions">
+                <a href="#" data-title="Home"><i class="fa fa-home"></i></a>
+                <a href="#" id="messages" data-title="Messages" data-newmessages="1"><i class="fa fa-inbox"></i></a>
+                <a href="#" data-title="Settings"><i class="fa fa-cog"></i></a>
+            </div>
+            <ul id="main-nav">
+                <li class="active">
+                    <a href="#">
+                        <i class="fa fa-tachometer"></i>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-check-square-o"></i>
+                        Tasks
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user"></i>
+                        Contacts
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-calendar"></i>
+                        Calendar
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-life-ring"></i>
+                        FAQs
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <form id="admin-search">
+            <input type="text" id="search-field" placeholder="Search" />
+            <label for="search-field" id="search-label" title="Search"><i class="fa fa-search"></i></label>
+        </form>
+        <div id="header_logo">
+            <a href="#">Logo</a>
+        </div>
+    </header>
+    <section id="content">
+        <header id="content-header">
+            Header content
+        </header>
+        @RenderBody()
+    </section>
+    <footer></footer>
+    <script type="text/javascript">
+    // This is VERY much a work in progress. Hope to complete work by mid September, but depends on spare time
+
+    $('#menu-toggle,#menu-overlay').click(function () {
+      $('body').toggleClass('open-menu');
+    });
+
+    $('#main-nav li a').click(function () {
+      $('#main-nav li').removeClass('active');
+      $(this).parent().addClass('active')
+    });
+
+    $('#tabs li').click(function () {
+      var clickTarget = $(this).attr('data-target');
+      $('.tab-target').removeClass('targeted');
+      $('#' + clickTarget).addClass("targeted");
+      $('#tabs li').removeClass('active');
+      $(this).addClass('active')
+    });
+
+    $('#admin-search input').on('focus', function () {
+      $('#header_logo').addClass('hidden');
+    });
+    $('#admin-search input').on('blur', function () {
+      $('#header_logo').removeClass('hidden');
+    });
+    </script>
+</body>
+
+</html>
