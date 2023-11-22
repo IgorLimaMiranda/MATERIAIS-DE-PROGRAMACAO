@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard-Web", "Dashboard-Web\Dashboard-Web.csproj", "{46D7BFB1-9DCE-4A50-84C7-17FB684E8A86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardMVC", "DashboardMVC\DashboardMVC.csproj", "{19768DED-5469-43C2-9009-88BC30993D2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46D7BFB1-9DCE-4A50-84C7-17FB684E8A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D7BFB1-9DCE-4A50-84C7-17FB684E8A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D7BFB1-9DCE-4A50-84C7-17FB684E8A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19768DED-5469-43C2-9009-88BC30993D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19768DED-5469-43C2-9009-88BC30993D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19768DED-5469-43C2-9009-88BC30993D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19768DED-5469-43C2-9009-88BC30993D2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
