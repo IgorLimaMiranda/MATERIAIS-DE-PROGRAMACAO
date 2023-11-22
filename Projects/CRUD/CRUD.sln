@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard-Web", "Dashboard-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardMVC", "DashboardMVC\DashboardMVC.csproj", "{19768DED-5469-43C2-9009-88BC30993D2F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D16F6905-D719-4D88-AD88-F6FE7DE90B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46D7BFB1-9DCE-4A50-84C7-17FB684E8A86} = {D16F6905-D719-4D88-AD88-F6FE7DE90B93}
+		{19768DED-5469-43C2-9009-88BC30993D2F} = {D16F6905-D719-4D88-AD88-F6FE7DE90B93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0E479E7-C659-4B4F-A210-E2871240905F}
