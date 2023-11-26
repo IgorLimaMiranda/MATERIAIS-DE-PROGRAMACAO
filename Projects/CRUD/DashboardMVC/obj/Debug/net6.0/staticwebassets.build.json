@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tU0TC8MCAgDm7SaDs/uqdqidixH/KtwMnG8DUcGcwcU=",
+  "Hash": "DVVRTss3ASdqnfO8xR/EvLc3oYHOPcptToPoFXKKwOc=",
   "Source": "DashboardMVC",
   "BasePath": "_content/DashboardMVC",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gauge-high-solid.svg"
+    },
+    {
+      "Identity": "C:\\REPOSITORIOS\\MATERIAIS-DE-PROGRAMACAO\\Projects\\CRUD\\DashboardMVC\\wwwroot\\js\\script.js",
+      "SourceId": "DashboardMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\REPOSITORIOS\\MATERIAIS-DE-PROGRAMACAO\\Projects\\CRUD\\DashboardMVC\\wwwroot\\",
+      "BasePath": "_content/DashboardMVC",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\REPOSITORIOS\\MATERIAIS-DE-PROGRAMACAO\\Projects\\CRUD\\DashboardMVC\\wwwroot\\js\\site.js",

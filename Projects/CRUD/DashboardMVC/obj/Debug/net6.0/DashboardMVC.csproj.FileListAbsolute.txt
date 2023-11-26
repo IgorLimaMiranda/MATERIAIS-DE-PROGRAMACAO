@@ -14,11 +14,6 @@ C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\ne
 C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\DashboardMVC.MvcApplicationPartsAssemblyInfo.cache
 C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\DashboardMVC.RazorAssemblyInfo.cache
 C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\DashboardMVC.RazorAssemblyInfo.cs
-C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets\msbuild.DashboardMVC.Microsoft.AspNetCore.StaticWebAssets.props
-C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.DashboardMVC.props
-C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DashboardMVC.props
-C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DashboardMVC.props
-C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets.pack.json
 C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets.build.json
 C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\staticwebassets.development.json
 C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
