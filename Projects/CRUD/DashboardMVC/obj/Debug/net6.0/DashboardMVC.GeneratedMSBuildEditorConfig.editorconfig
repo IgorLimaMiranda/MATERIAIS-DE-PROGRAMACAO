@@ -5,7 +5,6 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DashboardMVC
 build_property.RootNamespace = DashboardMVC
@@ -16,16 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\REPOSITORIOS\MATERIAIS-DE-PROGRAMACAO\Projects\CRUD\DashboardMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/REPOSITORIOS/MATERIAIS-DE-PROGRAMACAO/Projects/CRUD/DashboardMVC/Views/Home/Contas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/REPOSITORIOS/MATERIAIS-DE-PROGRAMACAO/Projects/CRUD/DashboardMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/REPOSITORIOS/MATERIAIS-DE-PROGRAMACAO/Projects/CRUD/DashboardMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/REPOSITORIOS/MATERIAIS-DE-PROGRAMACAO/Projects/CRUD/DashboardMVC/Views/MinisterioDeLouvor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaXN0ZXJpb0RlTG91dm9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/REPOSITORIOS/MATERIAIS-DE-PROGRAMACAO/Projects/CRUD/DashboardMVC/Views/Shared/Error.cshtml]
