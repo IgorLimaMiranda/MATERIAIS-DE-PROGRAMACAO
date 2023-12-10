@@ -25,7 +25,7 @@
 
 <span id='video'>&nbsp;</span>
 
-<select onChange="troca(this.options[this.selectedIndex].value);" size="4">
+<select onChange="troca(this.options[this.selectedIndex].value);" size="5">
     <option value="https://www.youtube.com/embed/iZUojirTEgM" style="background-image: url(https://img.youtube.com/vi/iZUojirTEgM/default.jpg); background-repeat: no-repeat; padding-left: 10px; width:120px; height:90px;">stop-motion 1</option>
     <option value="https://www.youtube.com/embed/ZEOmtEyXJtU" style="background-image: url(https://img.youtube.com/vi/ZEOmtEyXJtU/default.jpg); background-repeat: no-repeat; padding-left: 10px; width:120px; height:90px;">stop-motion 2</option>
     <option value="https://www.youtube.com/embed/GSzCLf8tjP4" style="background-image: url(https://img.youtube.com/vi/GSzCLf8tjP4/default.jpg); background-repeat: no-repeat; padding-left: 10px; width:120px; height:90px;">stop-motion 3</option>
@@ -36,7 +36,7 @@
     {
         troca = function(link) 
         {
-            $("#video").html('<iframe src="' + link + '" width="625" height="390" frameborder="0" allowfullscreen></iframe>');
+            $("#video").html('<iframe src="' + link + '" width="625" height="480" frameborder="0" allowfullscreen></iframe>');
         }
     });
 </script>
