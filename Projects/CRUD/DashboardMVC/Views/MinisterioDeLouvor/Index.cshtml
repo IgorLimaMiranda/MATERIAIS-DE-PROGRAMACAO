@@ -3,24 +3,40 @@
 }
 
 <style type="text/css">
-    #player-video {
-         display:block;
-         margin:auto auto;
-         /*width:150px;*/
-         border:1px hidden black;
-         padding:5px;
-         text-align:center;
-         width: 100%;
-}
+    select {
+        font-size: 20px;
+        width: 176px;
+        height: 100%;
+        padding: 15px;
+        float: right;
+    }
+
+    option {
+        font-size: 10pt;
+        padding: 10 10 10 10;
+        float: left;
+        cursor: pointer;
+    }
+
+    span {
+        float: left;
+    }
 </style>
 
-<div id="player-video">
-<iframe 
-    width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=RZ_7gNxPDzK7KCgB&amp;list=PLRyng7ObILGOrtlfoZMkV8Ie9ZHSsxNqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
-</div>
+<span id='video'>&nbsp;</span>
+
+<select onChange="troca(this.options[this.selectedIndex].value);" size="4">
+    <option value="https://www.youtube.com/embed/iZUojirTEgM" style="background-image: url(https://img.youtube.com/vi/iZUojirTEgM/default.jpg); background-repeat: no-repeat; padding-left: 10px; width:120px; height:90px;">stop-motion 1</option>
+    <option value="https://www.youtube.com/embed/ZEOmtEyXJtU" style="background-image: url(https://img.youtube.com/vi/ZEOmtEyXJtU/default.jpg); background-repeat: no-repeat; padding-left: 10px; width:120px; height:90px;">stop-motion 2</option>
+    <option value="https://www.youtube.com/embed/GSzCLf8tjP4" style="background-image: url(https://img.youtube.com/vi/GSzCLf8tjP4/default.jpg); background-repeat: no-repeat; padding-left: 10px; width:120px; height:90px;">stop-motion 3</option>
+</select>
 
 <script type="text/javascript">
-@*$('#content').css('padding','150px 50px 50px 350px');*@
-
+    $(document).ready(function() 
+    {
+        troca = function(link) 
+        {
+            $("#video").html('<iframe src="' + link + '" width="625" height="390" frameborder="0" allowfullscreen></iframe>');
+        }
+    });
 </script>

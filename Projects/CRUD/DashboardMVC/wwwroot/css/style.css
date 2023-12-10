@@ -11,7 +11,7 @@
   }
   
   body {
-    /*background:#d9e4ee;*/
+    background:#d9e4ee;
   }
   
   #main-header {
@@ -449,3 +449,7 @@
         opacity:0;
       }
   }
+
+#conteudo-pagina {
+    margin-top: 20px;
+}
