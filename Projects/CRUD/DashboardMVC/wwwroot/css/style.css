@@ -453,3 +453,14 @@
 #conteudo-pagina {
     margin-top: 25px;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    background-color: OrangeRed;
+    color: white;
+    text-align: center;
+}
