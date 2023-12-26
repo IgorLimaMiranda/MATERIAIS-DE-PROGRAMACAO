@@ -1,5 +1,5 @@
 /* seletor universal */
-*{
+/* *{
     padding: 20px;
 }
 
@@ -22,7 +22,7 @@ body{
 #teste{
     color: blue;
     background: yellow;
-}
+} */
 
 /* agrupamento de seletores */
 h1, p{
