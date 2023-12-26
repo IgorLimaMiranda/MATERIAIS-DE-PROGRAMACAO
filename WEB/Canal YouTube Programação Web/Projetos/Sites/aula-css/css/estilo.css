@@ -1,5 +1,7 @@
-/* agrupamento de seletores */
-h1, p{
+h1{
+    color: #13a3a8;
+}
+
+p{
     color: red;
-    text-align: center;
 }
