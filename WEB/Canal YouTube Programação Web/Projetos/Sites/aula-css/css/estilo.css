@@ -1,13 +1,31 @@
-body {
-    background: red;
+/* seletor universal */
+*{
+    padding: 20px;
 }
 
-h1 {
+body{
+    background: rgb(235, 235, 235);
+}
+
+.vermelho{
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+#teste{
     color: blue;
-    font-size: 88px;
+    background: yellow;
 }
 
-h2{
-    color: darkmagenta;
-    font-size: 100px;
+/* agrupamento de seletores */
+h1, p{
+    color: red;
+    text-align: center;
 }
