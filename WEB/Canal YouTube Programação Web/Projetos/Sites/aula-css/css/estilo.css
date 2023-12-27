@@ -16,21 +16,45 @@ h1{
      margin-bottom: 150px;
      margin-left: 20px;
      margin-right: 70px; */
-     /* margin: 30px 70px 150px 20px; */
+     /* margin: 30px 70px 150px 20px; */ /* valor em % ou foxp em px*/
+     /* padding-top: 50px;
+     padding-bottom: 20px;
+     padding-left: 10px;
+     padding-right: 70px; */
+     /*padding: 50px; /*se eu passar só um valor de medida ele coloca pra todos os lados*/
 }
 
 p{
     color: red;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     margin-left: 20px;
 }
 
 .exemplo-back{
-    height: 300px;
+    height: 100px;
     background: gray url("../img/background.jpg") no-repeat center; /*simplificado, somente a propiedade background-size é colocado separado. Shorthand (forma abreviada)*/
     background-size: cover; /*cover; => tenta encaixar o conteúdo. contains; 100% => passando o tamanho da img.*/
     /* background-color: gray;
     background-image: url("../img/fundo.jpg"); */
     /*background-repeat: no-repeat; /*repeat; no-repeat; repet-x; => repetir pra direita. repet-y; => repetir pra baixo.*/
     /*background-position: center; /*top; center; right; left;* para indicar a posição da img*/
+    margin-bottom: 100px;
+}
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    /* padding: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*Quando passa o mouse em cima do componente*/
+.botao:hover{
+    background: blue;
 }
