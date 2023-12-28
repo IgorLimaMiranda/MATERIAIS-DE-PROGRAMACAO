@@ -22,12 +22,22 @@ h1{
      padding-left: 10px;
      padding-right: 70px; */
      /*padding: 50px; /*se eu passar só um valor de medida ele coloca pra todos os lados*/
+     /* letter-spacing: -2px; */
 }
 
 p{
-    color: red;
+    color: black;
     /* margin-bottom: 60px; */
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    text-align: justify;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    text-indent: 60px; /*A propriedade text-indent especifica o recuo da primeira linha em um bloco de texto.*/
+    /* letter-spacing: 5px;*/ /*A propriedade letter-spacing aumenta ou diminui o espaço entre os caracteres de um texto.*/
+    /* line-height: 4; */ /*A propriedade line-height especifica a altura de uma linha. Valor informado em decimal ou tamanho expecífico.*/
+     /*word-spacing: 15px;*/ /* Espaçamento entre palavras */
 }
 
 .exemplo-back{
